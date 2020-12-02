@@ -2,10 +2,6 @@ import React, { useState, FormEvent } from 'react';
 import { useHistory } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import Input from '../../components/Input';
-import Textarea from '../../components/Textarea';
-import Select from '../../components/Select';
-
-import warningIcon from '../../assets/images/icons/warning.svg';
 
 import './styles.css'
 
@@ -13,42 +9,13 @@ function Login(){
     const history = useHistory();
 
     const [name, setName] = useState('');
-    const [avatar, setAvatar] = useState('');
-    const [whatsapp, setWhatsapp] = useState('');
-    const [bio, setBio] = useState('');
+    const [password, setPassword] = useState('');
 
-    const [subject, setSubject] = useState('');
-    const [cost, setCost] = useState('');
-
-
-    const [scheduleItems, setScheduleItems] = useState([
-        { week_day: 0, from: '', to: '' }
-    ])
-
-    function addNewScheduleItem(){
-        setScheduleItems([
-            ...scheduleItems,
-            { week_day: 0, from: '', to: '' }
-        ]);
-    }
-
-    function setScheduleItemValue(position: number, field: string, value: string){
-        const updatedScheduleItems = scheduleItems.map((scheduleItem, index) => {
-            if(index === position){
-                return { ...scheduleItem, [field]:value }
-            }
-
-            return scheduleItem;
-        });
-
-        setScheduleItems(updatedScheduleItems);
-    }
-
-    function handleCreateClass(e: FormEvent){
+    function handleLogin(e: FormEvent){
         e.preventDefault();
 
         alert('Login realizado com sucesso!')
-        history.push('/');
+        history.push('/give-classes');
     }
 
     return(
@@ -59,7 +26,7 @@ function Login(){
             />
 
             <main>
-                <form onSubmit={handleCreateClass}>
+                <form onSubmit={handleLogin}>
                     <fieldset>
                         <legend>Suas credenciais</legend>
                         <Input
@@ -71,12 +38,12 @@ function Login(){
                         <Input 
                             name="password" 
                             label="Senha" 
-                            value={avatar}
+                            value={password}
                             type="password"
-                            onChange={(e) => {setAvatar(e.target.value)}}
+                            onChange={(e) => {setPassword(e.target.value)}}
                         />
                         <p className="forgot-password">
-                            <a href="#">Esqueci minha senha</a>
+                            <a href="javascript:void(0)">Esqueci minha senha</a>
                         </p>
                     </fieldset>
                     <footer>
