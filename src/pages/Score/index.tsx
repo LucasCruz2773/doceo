@@ -9,11 +9,6 @@ import './styles.css';
 
 
 function Score(){
-    
-    
-    const [subject, setSubject] = useState('');
-    const [week_day, setWeekDay] = useState('');
-    const [time, setTime] = useState('');
 
     return(
         <div id="page-score" className="container">

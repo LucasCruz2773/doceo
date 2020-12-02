@@ -21,7 +21,7 @@ const TeacherItem: React.FC<Teacher> = ({avatar, bio, cost, name, subject, whats
     return(
         <article className="teacher-item">
             <header>
-                <img src='{teacher.avatar}' alt={name}/>
+                <img src={avatar} alt={name}/>
                 <div>
                     <strong>{name}</strong>
                     <span>{subject}</span>
