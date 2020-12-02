@@ -70,7 +70,7 @@ function TeacherList(){
 
             <main>
                 <TeacherItem
-                    avatar="https://scontent.fplu1-1.fna.fbcdn.net/v/t1.0-9/11933432_1006915675996088_8906614534962967671_n.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeEOqA8N6hOHYqyYqmG5RDd7fU2jv0qxKJl9TaO_SrEomTBbeJDGySycZvOuT7YbzokTdyJmLSrjTq6B05mvLG-y&_nc_ohc=aHN0BTe5MJ8AX_vO9Qd&_nc_ht=scontent.fplu1-1.fna&oh=ad7c89714fb1853262435c2ba7f48e99&oe=5FE9A71B"
+                    avatar="https://media-exp1.licdn.com/dms/image/C4D03AQFNWKtTWtyiGA/profile-displayphoto-shrink_800_800/0/1516301913452?e=1612396800&v=beta&t=_a-fji-iLDPVGIEBIXw7q4EnHm--le5ccXCzRySxDV8"
                     bio="Belíssimo Professor"
                     cost={999}
                     name="Fabiano Costa"
@@ -78,7 +78,7 @@ function TeacherList(){
                     whatsapp="19995730199"
                 />
                 <TeacherItem
-                    avatar="https://scontent.fplu1-1.fna.fbcdn.net/v/t1.0-9/11933432_1006915675996088_8906614534962967671_n.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeEOqA8N6hOHYqyYqmG5RDd7fU2jv0qxKJl9TaO_SrEomTBbeJDGySycZvOuT7YbzokTdyJmLSrjTq6B05mvLG-y&_nc_ohc=aHN0BTe5MJ8AX_vO9Qd&_nc_ht=scontent.fplu1-1.fna&oh=ad7c89714fb1853262435c2ba7f48e99&oe=5FE9A71B"
+                    avatar="https://media-exp1.licdn.com/dms/image/C4D03AQFNWKtTWtyiGA/profile-displayphoto-shrink_800_800/0/1516301913452?e=1612396800&v=beta&t=_a-fji-iLDPVGIEBIXw7q4EnHm--le5ccXCzRySxDV8"
                     bio="Belíssimo Professor"
                     cost={999}
                     name="Fabiano Costa"
@@ -86,7 +86,7 @@ function TeacherList(){
                     whatsapp="19995730199"
                 />
                 <TeacherItem
-                    avatar="https://scontent.fplu1-1.fna.fbcdn.net/v/t1.0-9/11933432_1006915675996088_8906614534962967671_n.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeEOqA8N6hOHYqyYqmG5RDd7fU2jv0qxKJl9TaO_SrEomTBbeJDGySycZvOuT7YbzokTdyJmLSrjTq6B05mvLG-y&_nc_ohc=aHN0BTe5MJ8AX_vO9Qd&_nc_ht=scontent.fplu1-1.fna&oh=ad7c89714fb1853262435c2ba7f48e99&oe=5FE9A71B"
+                    avatar="https://media-exp1.licdn.com/dms/image/C4D03AQFNWKtTWtyiGA/profile-displayphoto-shrink_800_800/0/1516301913452?e=1612396800&v=beta&t=_a-fji-iLDPVGIEBIXw7q4EnHm--le5ccXCzRySxDV8"
                     bio="Belíssimo Professor"
                     cost={999}
                     name="Fabiano Costa"
