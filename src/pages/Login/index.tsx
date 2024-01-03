@@ -42,9 +42,9 @@ function Login(){
                             type="password"
                             onChange={(e) => {setPassword(e.target.value)}}
                         />
-                        <p className="forgot-password">
-                            <a href="javascript:void(0)">Esqueci minha senha</a>
-                        </p>
+                        {/* <p className="forgot-password">
+                            <a href="#">Esqueci minha senha</a>
+                        </p> */}
                     </fieldset>
                     <footer>
                         <p>

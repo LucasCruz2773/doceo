@@ -37,6 +37,7 @@ const TeacherItem: React.FC<Teacher> = ({avatar, bio, cost, name, subject, whats
                 </p>
                 <a 
                     target="_blank"
+                    rel='noreferrer'
                     href={`https://wa.me/${whatsapp}`}
                 >
                     <img src={whatsappIcon} alt="Whatsapp"/>
